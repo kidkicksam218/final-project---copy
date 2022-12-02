@@ -1,0 +1,36 @@
+{
+    "name": "final project - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "sprite-scaling": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.15",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "animation": "*",
+        "radio-broadcast": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.11.37",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
